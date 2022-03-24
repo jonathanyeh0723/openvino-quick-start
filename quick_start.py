@@ -4,7 +4,7 @@ from openvino.preprocess import PrePostProcessor, ResizeAlgorithm
 from openvino.runtime import Core, Layout, Type
 
 core = Core()
-model = core.read_model('your-model-path.xml')
+model = core.read_model('mobilenet-v2-pytorch/FP16/mobilenet-v2-pytorch.xml')
 
 image = cv2.imread('car.png')
 
