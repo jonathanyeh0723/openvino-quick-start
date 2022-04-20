@@ -8,7 +8,7 @@ Today, everybody talks about Artificial Intelligence (AI). It is growing rapidly
 
 ## Inference Engine
 
-![inference_enine_flow](./resources/inference_1.jpg)
+![inference_enine_flow](./resources/inference_flow.jpg)
 
 ### What is the Inference Engine?
 
@@ -23,7 +23,7 @@ Today, everybody talks about Artificial Intelligence (AI). It is growing rapidly
   - It is built with C++ for faster operations.
   - We can use the built-in Python wrapper to work with the inference engine.
 
-![supported](./resources/support.jpg)
+![supported](./resources/support_os_hw.jpg)
 
 ### Run
 
