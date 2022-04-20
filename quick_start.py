@@ -1,3 +1,4 @@
+"""OpenVINO quickly start using pre-trained model."""
 import cv2
 import numpy as np
 from openvino.preprocess import PrePostProcessor, ResizeAlgorithm
@@ -13,7 +14,9 @@ ppp = PrePostProcessor(model)
 
 _, h, w, _ = input_tensor.shape
 
-ppp.input().tensor().set_element_type(Type.u8).set_layout(Layout('NHWC')).set_spatial_static_shape(h, w)
+(ppp.input().tensor().set_element_type(Type.u8).set_layout(
+    Layout('NHWC')).set_spatial_static_shape(h, w))
+
 ppp.input().preprocess().resize(ResizeAlgorithm.RESIZE_LINEAR)
 ppp.input().model().set_layout(Layout('NCHW'))
 ppp.output().tensor().set_element_type(Type.f32)
@@ -25,5 +28,17 @@ results = compiled_model.infer_new_request({0: input_tensor})
 probs = next(iter(results.values()))
 idx = np.argsort(probs[0])[::-1]
 
+labels = "squeezenet1.1.labels.txt"
+with open(labels, 'r') as f:
+    labels_list = f.read()
+labels_list = labels_list.split('\n')
+
+print("Inference Results:")
 for i in range(5):
-    print(idx[i], probs[0][idx[i]])
+    print("{}, {} --- {:.3f}".format(idx[i],
+                                     labels_list[idx[i]],
+                                     probs[0][idx[i]]))
+
+cv2.imshow('target', image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
