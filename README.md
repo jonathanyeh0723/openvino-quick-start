@@ -58,7 +58,7 @@ Now we'll need to install the required dependencies for this project by typing t
 pip install -r requirements.txt
 ```
 
-**Note: If you encounter some error messages in this step, just ignore it. It's about the tensorflow-gpu related compatibility. For the showcase of OpenVINO inference, we do not need to enable it now.**
+**Note: If you encounter some error messages in this step like below, just ignore it. It's about the tensorflow-gpu related compatibility. For the showcase of OpenVINO inference, we do not need to enable it now.**
 ```
 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
 tensorflow-gpu 2.3.0 requires gast==0.3.3, which is not installed.
@@ -72,12 +72,13 @@ keras-preprocessing 1.1.2 requires six>=1.9.0, which is not installed.
 tensorflow-gpu 2.3.0 requires numpy<1.19.0,>=1.16.0, but you have numpy 1.19.5 which is incompatible.
 ```
 
+OK! We're all set. Let's perform the inference.<br>
 ```
-(base) C:\Users\Jonathan>conda activate ov_2022_dev
+python quick_start.py
+```
 
-(ov_2022_dev) C:\Users\Jonathan>cd openvino-quick-start
-
-(ov_2022_dev) C:\Users\Jonathan\openvino-quick-start>python quick_start.py
+You should be able to see the following results, if successful. It indicates that the top five labeled object index with corespondent probability inferred.<br>
+```
 Inference Results:
 511, convertible --- 12.158
 436, beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon --- 11.670
