@@ -27,6 +27,8 @@ Today, everybody talks about Artificial Intelligence (AI). It is growing rapidly
 
 ### Run
 
+- Clone
+
 ```
 (base) C:\Users\Jonathan>conda activate ov_2022_dev
 
