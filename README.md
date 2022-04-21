@@ -27,7 +27,12 @@ Today, everybody talks about Artificial Intelligence (AI). It is growing rapidly
 
 ### Run
 
-- Clone
+Open the Anaconda Prompt. Activate the environment we just created.<br>
+```
+conda activate ov_2022_dev
+```
+
+
 
 ```
 (base) C:\Users\Jonathan>conda activate ov_2022_dev
