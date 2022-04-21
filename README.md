@@ -80,9 +80,9 @@ python quick_start.py
 You should be able to see the following results, if successful. It indicates that the top five labeled object index with corespondent probability inferred.<br>
 ```
 Inference Results:
-511, convertible --- 12.158
-436, beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon --- 11.670
-817, sports car, sport car --- 11.610
-717, pickup, pickup truck --- 11.348
-479, car wheel --- 10.920
+id: 511, target: convertible, prob: 12.158
+id: 436, target: beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon, prob: 11.670
+id: 817, target: sports car, sport car, prob: 11.610
+id: 717, target: pickup, pickup truck, prob: 11.348
+id: 479, target: car wheel, prob: 10.920
 ```
