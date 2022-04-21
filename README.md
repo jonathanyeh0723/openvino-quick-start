@@ -32,10 +32,33 @@ Open the Anaconda Prompt. Activate the environment we just created.<br>
 conda activate ov_2022_dev
 ```
 
-Clone this repo to your local machine. Once it's done, change your working directory to the cloned directory.<br>
+After that, clone this repo to your local machine.<br>
 ```
-git clone 
+git clone https://github.com/jonathanyeh0723/openvino-quick-start
 ```
+
+You should be able to see the following outputs from the console.<br>
+```
+Cloning into 'openvino-quick-start'...
+remote: Enumerating objects: 65, done.
+remote: Counting objects: 100% (65/65), done.
+remote: Compressing objects: 100% (44/44), done.
+Receiving objects: 100% (65/65), 6.72 MiB | 3.74 MiB/sk-reused 0 eceiving objects:  55% (36/65), 5.95 MiB | 3.74 MiB/s
+68 MiB/s, done.
+Resolving deltas: 100% (22/22), done.
+```
+
+Once it's done, change your working directory to the cloned directory.<br>
+```
+cd openvino-quick-start
+```
+
+Now we'll need to install the required dependencies for this project by typing the below commands:<br>
+```
+pip install -r requirements.txt
+```
+
+**Note: If you encounter some error messages in this step, just ignore it. It's about the tensorflow-gpu related compatibility.**
 
 ```
 (base) C:\Users\Jonathan>conda activate ov_2022_dev
