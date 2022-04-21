@@ -35,7 +35,7 @@ labels_list = labels_list.split('\n')
 
 print("Inference Results:")
 for i in range(5):
-    print("{}, {} --- {:.3f}".format(idx[i],
+    print("id: {}, target: {}, prob: {:.3f}".format(idx[i],
                                      labels_list[idx[i]],
                                      probs[0][idx[i]]))
 
