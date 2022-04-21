@@ -32,7 +32,10 @@ Open the Anaconda Prompt. Activate the environment we just created.<br>
 conda activate ov_2022_dev
 ```
 
-
+Clone this repo to your local machine. Once it's done, change your working directory to the cloned directory.<br>
+```
+git clone 
+```
 
 ```
 (base) C:\Users\Jonathan>conda activate ov_2022_dev
