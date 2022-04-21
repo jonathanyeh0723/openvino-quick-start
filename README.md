@@ -58,7 +58,19 @@ Now we'll need to install the required dependencies for this project by typing t
 pip install -r requirements.txt
 ```
 
-**Note: If you encounter some error messages in this step, just ignore it. It's about the tensorflow-gpu related compatibility.**
+**Note: If you encounter some error messages in this step, just ignore it. It's about the tensorflow-gpu related compatibility. For the showcase of OpenVINO inference, we do not need to enable it now.**
+```
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+tensorflow-gpu 2.3.0 requires gast==0.3.3, which is not installed.
+tensorflow-gpu 2.3.0 requires grpcio>=1.8.6, which is not installed.
+tensorflow-gpu 2.3.0 requires h5py<2.11.0,>=2.10.0, which is not installed.
+tensorflow-gpu 2.3.0 requires scipy==1.4.1, which is not installed.
+tensorflow-gpu 2.3.0 requires six>=1.12.0, which is not installed.
+tensorflow-gpu 2.3.0 requires tensorboard<3,>=2.3.0, which is not installed.
+tensorflow-gpu 2.3.0 requires wrapt>=1.11.1, which is not installed.
+keras-preprocessing 1.1.2 requires six>=1.9.0, which is not installed.
+tensorflow-gpu 2.3.0 requires numpy<1.19.0,>=1.16.0, but you have numpy 1.19.5 which is incompatible.
+```
 
 ```
 (base) C:\Users\Jonathan>conda activate ov_2022_dev
