@@ -10,7 +10,7 @@ Today, everybody talks about Artificial Intelligence (AI). It is growing rapidly
   
 - What is the usage of OpenVINO?
 
-  - The usages are really endless. Doesn't matter if you'd like to add visual understanding capabilities to a surveillance camera, to a retail store camera, in a factory, in a cross road to automate the smart city. It doesn't matter what industry you are in, the same tools will help you integrate Artificial Intelligence and video processing, and they are all here in the toolkit, if you'd like to use a deep-learning based models for detection, classification, segmentation, and more.
+  - The usages are really endless. Doesn't matter if you'd like to add visual understanding capabilities to a surveillance camera, to a retail store camera, in a factory, in a cross road to automate the smart city. It doesn't matter what industry you are in, the same tools will help you integrate Artificial Intelligence and video processing.
 
 ## Model Optimizer
 
