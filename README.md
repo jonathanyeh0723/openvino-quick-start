@@ -1,10 +1,20 @@
 # openvino-quick-start
+Easily get started with interesting AI inference in a hour by using OpenVINO.
 
+## Overview
 Today, everybody talks about Artificial Intelligence (AI). It is growing rapidly and its market is on fire.  OpenVINO is a power toolkit that that you can easily develop and deploy AI solutions with Intel® platforms, on the Cloud or on the Edge.  Following the repository instruction to quickly kick-start your AI journey!
 
 - What is OpenVINO?
 
   - OpenVINO stands for Open Visual Inferencing and Neural Network Optimization. It is a toolkit that you can develop and deploy computer vision oriented solutions on Intel® platforms, on the Cloud or on the Edge.
+  
+- What is the usage of OpenVINO?
+
+  - The usages are really endless. Doesn't matter if you'd like to add visual understanding capabilities to a surveillance camera, to a retail store camera, in a factory, in a cross road to automate the smart city. It doesn't matter what industry you are in, the same tools will help you integrate Artificial Intelligence and video processing, and they are all here in the toolkit, if you'd like to use a deep-learning based models for detection, classification, segmentation, and more.
+
+## Model Optimizer
+
+![mo](./resources/mo.jpg)
 
 ## Inference Engine
 
@@ -25,7 +35,9 @@ Today, everybody talks about Artificial Intelligence (AI). It is growing rapidly
 
 ![supported](./resources/support_os_hw.jpg)
 
-### Run
+## System Environment
+
+## Run
 
 Open the Anaconda Prompt. Activate the environment we just created.<br>
 ```
