@@ -16,6 +16,17 @@ Today, everybody talks about Artificial Intelligence (AI). It is growing rapidly
 
 ![mo](./resources/mo.jpg)
 
+### What is the Model Optimizer?
+
+- So what exactly is the model optimizer? Why do you need it? What’s the main capabilities? And how does it work?
+  - It is the bridge between the trained model and inference engine in a nutshell.
+  - We learned that inference flow: We need to take a pre-trained model. We need to prepare it for inference.
+  - The full OpenVINO inference flow is to take a pre-trained model first, and then use model optimizer to convert it to a unified data format called ‘IR’ (abbreviation of Intermediate Representation). It basically consist of model topology (.xml) and model weights (.bin). After that, we can use it for prediction by inference engine API, by your application.
+
+- What is the problem we are trying to solve?
+ - There are many deep learning frameworks widely used in the industry such as TensorFlow, PyTorch, Caffe, MXNet. And we see a new one every few months. **We want to use ALL these models for inference.**
+
+
 ## Inference Engine
 
 ![inference_enine_flow](./resources/inference_flow.jpg)
