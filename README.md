@@ -28,8 +28,8 @@ Today, everybody talks about Artificial Intelligence (AI). It is growing rapidly
   - Intel provides a wide range of devices and platforms to choose from. CPUs: Atom based, Core based (i3, i5, i7), Xeon based (gold platinum). Most of these CPUs has integrated GPU.
   - Intel has also acquired Movidius and now offer a range of platforms based on Movidius VPU. And of course, a few different families of FPGA.
   - Mapping from each of these SW suits to any of these HW devices is a complex task. Because:
-   - First the representation of DL model is totally different from one framework to the other (take TensorFlow representation vs. Caffe for example).
-   - Second, each of these devices has a different architecture, different instruction and a programming model.
+    - First the representation of DL model is totally different from one framework to the other (take TensorFlow representation vs. Caffe for example).
+    - Second, each of these devices has a different architecture, different instruction and a programming model.
 
 So, Intel does not tell you – “OK, these are the devices, go invest the time to learn how to program a VPU or an FPGA, which obviously takes time and expertise.”<br>
 Instead, Intel supplies **a one common API that could be used to implement inference across all of these devices and basically abstract HW for you.**
