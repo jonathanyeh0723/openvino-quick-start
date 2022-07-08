@@ -55,6 +55,10 @@ Instead, Intel supplies **a one common API that could be used to implement infer
 
 ## System Environment
 
+- OS: Windows 11 Home
+- CPU: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz   1.50 GHz
+- RAM: 16.0 GB
+
 ## Run
 
 Open the Anaconda Prompt. Activate the environment we just created.<br>
