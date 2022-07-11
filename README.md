@@ -58,6 +58,9 @@ Instead, Intel supplies **a one common API that could be used to implement infer
 - OS: Windows 11 Home
 - CPU: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz   1.50 GHz
 - RAM: 16.0 GB
+- Anaconda: conda 4.11.0
+- Python: 3.8.12
+- OpenVINO: 2022.1.0
 
 ## Run
 
