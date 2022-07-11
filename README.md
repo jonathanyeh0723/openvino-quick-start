@@ -53,6 +53,8 @@ Instead, Intel supplies **a one common API that could be used to implement infer
 
 ![supported](./resources/support_os_hw.jpg)
 
+## Pipeline
+
 ## System Environment
 
 - OS: Windows 11 Home
