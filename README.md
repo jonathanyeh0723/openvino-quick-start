@@ -56,8 +56,8 @@ Instead, Intel supplies **a one common API that could be used to implement infer
 ## Pipeline
 
 - Build: Prepare the data, app, and model. The model can be obtained by:
- - Use Pretrained Models: Find an open-source pretrained model from Open Model Zoo.
- - Train Your Model: Use your framework of choice to prepare and train a deep learning model. Or you can use scripts or a manual process to configure the Model Optimizer for the framework used to train the model.
+  - Use Pretrained Models: Find an open-source pretrained model from Open Model Zoo.
+  - Train Your Model: Use your framework of choice to prepare and train a deep learning model. Or you can use scripts or a manual process to configure the Model Optimizer for the framework used to train the model.
  - Optimize: Run the model optimizer to convert your model and prepare it for inferencing. Note that if your model is downloaded via `omz_downloader` tool. the data is directly in IR format so you do not have to conduct optimization. You can skip this step.
  - Deploy: Tune for ferformance. Use the OpenVINO Runtime API (Inference Engine) to compile the optimized network and manage inference operations on specified devices.
  
