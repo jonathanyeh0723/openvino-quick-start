@@ -55,6 +55,8 @@ Instead, Intel supplies **a one common API that could be used to implement infer
 
 ## Pipeline
 
+![openvino_pipeline](./resources/ov_pipeline.jpg)
+
 ## System Environment
 
 - OS: Windows 11 Home
